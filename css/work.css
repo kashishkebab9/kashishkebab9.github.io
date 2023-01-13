@@ -28,6 +28,11 @@ li a {
     text-decoration: none;
 }
 
+.upenn{
+    background-color:#001f5b ;
+    block-size: 75em;
+
+}
 .exyn{
     background-color:#95C054 ;
     block-size: 75em;
@@ -60,6 +65,12 @@ li a {
     margin: 0px;
 }
 
+.upenntext {
+    color:#ffffff;
+    text-align:center;
+    padding:2em;
+    font-size: 1.75rem;
+}
 .exyntext {
     color:#4e5861;
     text-align:center;
@@ -91,6 +102,28 @@ li a {
     
 }
 
+.upennpiccontainer{
+    /* background-color: #000080; */
+    block-size: 40em;
+    position: relative;
+    display: flex;
+    background:
+    linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+    /* column-count: 2; */
+}
+.upennmainpic{
+    display:block;
+    width:auto;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 
@@ -170,6 +203,11 @@ li a {
     font-style: italic;
 }
 
+.upennproj {
+    color:#4e5861;
+    padding-top: 1em;
+
+}
 .exynproj {
     color:#4e5861;
     padding-top: 1em;
@@ -186,6 +224,9 @@ li a {
     color: #F2AA4C;
 }
 
+.upenndesc text {
+    color:#ffffff;
+}
 .exyndesc text {
     color:#4e5861;
 }
