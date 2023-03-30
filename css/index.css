@@ -1,0 +1,311 @@
+body {
+  font-family: Hack, monospace;
+  margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #708090;
+  /* height: 7.5em; */
+}
+
+li {
+  float: left;
+  margin: 1.5em 3em 1.5em 6rem;
+  font-size: 1.25rem;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.upenn{
+  background-color:#001f5b ;
+  block-size: 75em;
+}
+
+.exyn{
+  background-color:#95C054 ;
+  block-size: 75em;
+
+}
+
+.hmi{
+  background-color:#E16A2B ;
+  block-size: 80em;
+}
+
+.title {
+  margin: 0 0 0 0em;
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+.project-title {
+  margin: 0 0 0 0em;
+  font-size: 2.5rem;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 1.0rem;
+  margin: 0px;
+}
+
+.upenntext {
+  color:#ffffff;
+  text-align:center;
+  padding:2em;
+  font-size: 1.75rem;
+}
+
+.exyntext {
+  color:#4e5861;
+  text-align:center;
+  padding:2em;
+  font-size: 1.75rem;
+}
+
+.hmitext {
+  color:#E5FFF6;
+  text-align:center;
+  padding:2em;
+  font-size: 1.75rem;
+}
+
+
+
+.grid{
+  display: grid;
+  /* grid-gap: ; */
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  background-color: #ffffff;
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 12.5px 12.5px, linear-gradient(#000000 1px, transparent 1px) 0 -0.5px, linear-gradient(90deg, #000000 1px, #ffffff 1px) -0.5px 0;
+  background-size: 25px 25px, 25px 25px, 12.5px 12.5px, 12.5px 12.5px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+
+}
+
+.upennpiccontainer{
+  /* background-color: #000080; */
+  block-size: 40em;
+  position: relative;
+  display: flex;
+  background:
+  linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px;
+}
+
+.upennmainpic{
+  display:block;
+  width:auto;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.exynmainpic{
+  display:block;
+  height: auto;
+  width:auto;
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.exynsecondpic{
+  display:block;
+  height: auto;
+  width:auto;
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-container {
+  position: relative;
+  display: flex;
+  column-count: 3;
+}
+
+.hmipiccontainer{
+  block-size: 40em;
+  position: relative;
+  display: flex;
+  background-color: #464c87;
+  background-image:  repeating-linear-gradient(45deg, #000080 25%, transparent 25%, transparent 75%, #000080 75%, #000080), repeating-linear-gradient(45deg, #000080 25%, #464c87 25%, #464c87 75%, #000080 75%, #000080);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+}
+
+.hmimainpic{
+  display:block;
+  width:auto;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hmisecondpic{
+  display:block;
+  width:auto;
+  max-height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.work {
+  font-size: 2.2rem;
+}
+
+.projdesc {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+.upennproj {
+  color:#ffffff;
+  padding-top: 1em;
+}
+
+.exynproj {
+  color:#4e5861;
+  padding-top: 1em;
+}
+
+.hmiproj {
+  color:#E5FFF6;
+  padding-top: 1em;
+}
+
+.project {
+  color: #F2AA4C;
+}
+
+.upenndesc text {
+  color:#ffffff;
+}
+
+.exyndesc text {
+  color:#4e5861;
+}
+
+.hmidesc text {
+  color: #E5FFF6;
+}
+
+a{
+  display: block;
+  width: 8rem;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+
+
+.aboutme {
+  float:left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: yellow; */
+  background-image:url(../images/magicpattern-svg-chart-1659930032315.svg);
+}
+
+.aboutmedesc {
+  float:left;
+  width:45%;
+  margin-left: 10%;
+}
+.aboutmephoto {
+  float:left;
+  width: 35%;
+  margin-left:10%;
+}
+.aboutmepicture{
+  border-radius: 50%;
+  max-width: 500px;
+}
+
+.aboutmeparagraph{
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+.aboutmetitle{
+  font-size:2.25rem;
+  font-weight: bolder;
+}
+
+.aboutmenyu {
+  float:left;
+  padding-top:40px;
+  padding-bottom:20px;
+  background-image: url(../images/magicpattern-svg-chart-1659930306692.svg);
+}
+.aboutmedescnyu {
+  float:left;
+  width: 45%;
+}
+.aboutmenyuphoto {
+  float:left;
+  width: 35%;
+  margin-left:15%;
+}
