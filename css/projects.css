@@ -1,0 +1,47 @@
+.projects {
+  display: flex; /* Make container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to new lines */
+  font-size: 22px;
+}
+
+.projects-item {
+  width: 50%; /* Make each item take up 33% of the container width */
+  box-sizing: border-box; /* Include padding and borders in item width */
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 5em;
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    flex-direction: column; /* Switch flex direction to vertical */
+  }
+  
+  .projects-item {
+    width: 100%; /* Make each item take up 100% of container width */
+  }
+}
+
+/**************************************************************/
+.tooling-learned {
+  display: flex; /* Make container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to new lines */
+  font-size: 22px;
+}
+
+.tooling-learned-item {
+  width: 50%; /* Make each item take up 33% of the container width */
+  box-sizing: border-box; /* Include padding and borders in item width */
+  text-align: center;
+  padding-top: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .tooling-learned {
+    flex-direction: column; /* Switch flex direction to vertical */
+  }
+  
+  .tooling-learned-item {
+    width: 100%; /* Make each item take up 100% of container width */
+  }
+}
