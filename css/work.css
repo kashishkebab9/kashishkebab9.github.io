@@ -16,7 +16,7 @@
 
 .title {
   margin: 0 0 0 0em;
-  font-size: 3.0rem;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -56,6 +56,7 @@
 
 
 .grid{
+  block-size: 30em;
   display: grid;
   /* grid-gap: ; */
   grid-auto-flow: column;
@@ -71,7 +72,7 @@
 
 .upennpiccontainer{
   /* background-color: #000080; */
-  block-size: 40em;
+  block-size: 30em;
   position: relative;
   display: flex;
   background:
@@ -120,7 +121,7 @@
 }
 
 .hmipiccontainer{
-  block-size: 40em;
+  block-size: 30em;
   position: relative;
   display: flex;
   background-color: #464c87;
@@ -266,5 +267,16 @@
   }
 }
 
+.project-container-item-desc {
+  padding-bottom: 1em;
+  font-size: 30px;
+}
 
+.project-container-item-summ {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: .25em;
+  font-size: 21px;
+  
+}
 

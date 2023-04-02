@@ -42,33 +42,25 @@ li a {
 }
 
 .large-text {
-  font-size: 40px; /* Set font size for large text */
+  font-size: 36px; /* Set font size for large text */
 }
 
 .med-text {
-  font-size: 33px; /* Set font size for large text */
+  font-size: 30px; /* Set font size for large text */
 }
 
 .small-text {
-  font-size: 22px; /* Set font size for small text */
+  font-size: 18px; /* Set font size for small text */
 }
 
 .skill-item-text {
-  font-size: 27px;
+  font-size: 23px;
 }
 
 .proj-desc-text {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 
-@media screen and (min-width: 800px) and (max-width: 1199px) {
-  body {
-    large-text: 30px; 
-    med-text: 25px; 
-    small-text: 20px; 
-    proj-desc-text: 6px;
-  }
-}
 
 
