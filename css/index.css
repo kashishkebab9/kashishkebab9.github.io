@@ -30,8 +30,8 @@
 }
 
 .about_me_top_image img {
-  width: 450px; /* Set the width of the image */
-  height: 450px; /* Set the height of the image */
+  width: 400px; /* Set the width of the image */
+  height: 400px; /* Set the height of the image */
   border-radius: 50%; /* Make the image circular */
 }
 
@@ -48,7 +48,7 @@
   width: 45%; /* Make each item take up 33% of the container width */
   box-sizing: border-box; /* Include padding and borders in item width */
   padding-left: 0em;
-  padding-top: 6em;
+  padding-top: 7em;
   padding-right: 3em;
   padding-bottom:4em;
 }
@@ -68,13 +68,13 @@
   justify-content: center; /* Center image horizontally */
   align-items: center; /* Center image vertically */
   padding-left: 3em;
-  padding-top: 0em;
+  padding-top: 4em;
   padding-right: 0em;
 }
 
 .about_me_mid_image img {
-  width: 450px; /* Set the width of the image */
-  height: 450px; /* Set the height of the image */
+  width: 400px; /* Set the width of the image */
+  height: 400px; /* Set the height of the image */
   border-radius: 50%; /* Make the image circular */
 }
 
