@@ -5,13 +5,13 @@
 
 .exyn{
   background-color:#95C054 ;
-  block-size: 75em;
+  block-size: auto;
 
 }
 
 .hmi{
   background-color:#E16A2B ;
-  block-size: 80em;
+  block-size: auto;
 }
 
 .title {
