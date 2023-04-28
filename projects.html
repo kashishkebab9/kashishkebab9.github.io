@@ -24,6 +24,31 @@
   <body>
     <div class="projects">
       <div class="projects-item">
+        <span class="med-text"><br><strong>Occupancy Grid Mapping with Known Poses</strong></span>
+        <span class="small-text"><br><br>Following Cyrill Stachniss' Mobile Sensing and Robotics Course, lecture 2 is based arround Occupancy Grid Mapping with Known Odometry. I decided to take the proposed Algorithm and apply it within ROS. My implementation has a few kinks that, when tweaked, would result in better performance. The first is that, in this video, I am running the algorithm on a Rosbag -- meaning the synchronization of /tf topics is sub-par. The second is that Odometry data is coming from an ICP implementation -- using Vicon could result in much stronger performance.</span>
+
+        <div class="tooling-learned">
+          <div class="tooling-learned-item">
+            <span class="skill-item-text"><strong>Tooling</strong></span>
+            <span class="small-text"><br>C++</span>
+            <span class="small-text"><br>ROS</span>
+            <span class="small-text"><br>tf</span>
+            <span class="small-text"><br>grid_map</span>
+          </div>
+          <div class="tooling-learned-item">
+            <span class="skill-item-text"><strong>Learned</strong></span>
+            <span class="small-text"><br>Mapping</span>
+            <span class="small-text"><br>Probabilistic Robotics</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-item projects-item-video">
+        <iframe width="400" height="315" src="https://youtu.be/g4BAmDsn39s" title="AStar Path planning on Quadtrees" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="projects-item">
         <span class="med-text"><br><strong>QuadTree A*</strong></span>
         <span class="small-text"><br><br>In this project, I attempted to gain an understanding on cell decomposition and how one can implement it in code. On top of this, I decided to run an A* Algorithm on top of this graph representation. This gave me a great insight on the challenges that can arrive within a QuadTree. If there was any optimization I would make to the decomposition, it would be to define it in a data structure akin to </span>
         <span class="small-text"><a href="https://en.wikipedia.org/wiki/Z-order_curve">Z-Order Curves.</a></span>
